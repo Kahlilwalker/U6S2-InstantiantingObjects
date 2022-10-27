@@ -1,4 +1,4 @@
-# U5S3 - Using break and continue statements
+# U6S2 - Instantiating Objects
 
 * Part A - Foundations 7.2
 * Part B - UML Practice
