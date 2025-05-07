@@ -1,19 +1,26 @@
 package partA.ex02;
 
+import partA.ex01.Player;
+
 public class BballTeamPt1 {
-    public static String BballTeam() {
-        String response = "";
 
-        /**
-         * Your code goes here
-         */
+        String name;
+        int yearsInLeague;
+        String height;
+
+    public  BballTeamPt1 (String name, int yearsInLeague, String height) {
 
 
-        return response;
+            this.name=name;
+
+            this.height=height;
+
+            this.yearsInLeague=yearsInLeague;
+
+
+        }
     }
 
-    public static void main(String[] args) {
-        String teamOutput = BballTeam();
-        System.out.print(teamOutput);
-    }
-}
+
+
+

@@ -1,19 +1,19 @@
 package partA.ex01;
 
 public class Player {
-    public static String player() {
+String name;
+int yearsInLeague;
+String height;
+
+    public  Player(String name, int yearsInLeague, String height) {
         String response = "";
 
-        /**
-         * Your code goes here
-         */
+this.name=name;
+
+        this.height=height;
+
+        this.yearsInLeague=yearsInLeague;
 
 
-        return response;
-    }
-
-    public static void main(String[] args) {
-        String playerOutput = player();
-        System.out.print(playerOutput);
     }
 }
